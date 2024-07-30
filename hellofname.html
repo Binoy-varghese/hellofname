@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Label Text</title>
+    <script type="text/javascript">
+        function updateLabel() {
+            var inputText = document.getElementById("inputField").value;
+            document.getElementById("resultLabel").innerText = inputText;
+        }
+    </script>
+</head>
+<body>
+    <label for="inputField" style="font-size: xx-large;">first name: </label>
+    <input type="text" id="inputField">
+    <button onclick="updateLabel()" style="font-size: large;">submit</button>
+    <br><br>
+    <label id="resultLabel" style="font-size: xx-large;">hello</label>
+</body>
+</html>
